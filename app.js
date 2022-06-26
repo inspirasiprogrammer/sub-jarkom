@@ -3,7 +3,7 @@ const rateLimit = require('express-rate-limit')
 const express = require('express')
 
 const PORT = 8000
-const HOST = '127.0.0.1'
+const HOST = '0.0.0.0'
 
 const app = express()
 // Create the rate limit rule
